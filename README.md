@@ -12,6 +12,8 @@ Each student in our university has got **4 gold opportunities**:
 
 Suppose we have a **switch** that regulates the leaving/returning, failing/pasing. The **Command** just an executor of this command - it changes states from "0" to "1" and in opposite.
 
+# Task
+
 Create two classes that are responsible for (1) Academical leave and (2) Exam passing.
 
 Each of these classes has exactly 2 methods: one for describing state "0" and another one for state "1".
@@ -24,8 +26,14 @@ Each of these classes has exactly 2 methods: one for describing state "0" and an
 
 - when the student **fails** the exam, the console should display the message "Student failed and goes to retake"
 
+# Task
+
 Implement **Switch** such that Command can be executed for state "0" (**flipUp**) or "1" (**flipDown**)
 
+# Task
+
 Realise 4 classes for each of 4 states (passed, failed, acadevical leave, return from leave). Each class has **constructor** and a sigle **execute** method to change the state
+
+# Task
 
 Test your implementation
